@@ -1,0 +1,102 @@
+.roomView {
+    padding-bottom: 50px;
+}
+
+/* model styles */
+.roomView-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: max-content;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0,0,0, .8);
+    z-index: 10000;
+}
+
+.roomView-header-title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* swiper js styles */
+
+.swiper {
+    background: #fff;
+    height: fit-content;
+}
+
+.swiper-wrapper {
+    align-items: center;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 600px;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.roomView-details-legend {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.roomView-details-bedType > p:last-child {
+    gap: 20px;
+}
+
+.roomView-details-legend > p:last-child {
+    padding: 10px 20px;
+    border: 2px solid rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+}
+
+.roomView-details-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* price card styles */
+
+.roomView-details-price-container {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.roomView-details-price-main-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.roomView-details-price-main-price {
+    font-size: 35px;
+}
+
+.roomView-details-price-discount-desc {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.roomView-details-price-discount {
+    font-size: 35px;
+}
+
+.roomView-details-price-discount-linethrough {
+    text-decoration: line-through;
+}
+
+.roomView-details-price-discount-show {
+    font-size: 20px;
+}
+
+.roomView-details-price-book-btn {
+    font-weight: 500!important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

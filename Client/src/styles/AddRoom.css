@@ -1,0 +1,12 @@
+.AddRoom-content-wrapper {
+   
+    background-color: whitesmoke;
+    padding: 30px 50px;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+}

@@ -1,0 +1,143 @@
+.profilePage {
+    display: flex;
+    gap: 50px;
+}
+
+.profilePage-left {
+    width: 65%;
+    padding-bottom: 50px;
+}
+
+/* avatar upload styles */
+.profilePage-left-avatar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.profilePage-left-avatar > div {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #ced4da;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profilePage-left-avatar > div > span {
+    color: #ced4da;
+    font-weight: 500;
+}
+
+.profilePage-left-avatar > div > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profilePage-left-avatar > p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profilePage-left-avatar > p > input[type='file'] {
+    display: none;
+}
+
+.profilePage-left-avatar > p > button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.profilePage-left-avatar > p > button > svg {
+    font-size: 20px;
+    color: #fff;
+}
+
+.profilePage-right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: lightgray; */
+    padding: 50px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0, .15);
+    height: max-content;
+}
+
+.profilePage-right-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #ced4da;
+}
+
+.profilePage-right-avatar > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profilePage-right > span {
+    /* username */
+    margin: 15px 0;
+    color: rgb(36, 154, 245);
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+.profilePage-right > h1 {
+    margin: 0;
+    color: #333;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.profilePage-right > p {
+    background-color: #333;
+    color: #fff;
+    padding: 6px 20px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.profilePage-right > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.profilePage-right > ul > li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.profilePage-right > ul > li > svg {
+    color: #a7a7a7;
+    font-size: 18px;
+}
+
+.profilePage-right > ul > li > span {
+    color: #a7a7a7;
+    font-size: 14px;
+    font-weight: 500;
+}

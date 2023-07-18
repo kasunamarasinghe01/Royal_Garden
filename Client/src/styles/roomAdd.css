@@ -1,0 +1,209 @@
+.roomAdd-content {
+    padding-bottom: 50px;
+}
+
+.roomAdd-images-wrapper {
+    position: relative;
+    margin: 20px 0;
+    padding-bottom: 20px;
+}
+
+.roomAdd-images-label {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.roomAdd-images-label > small {
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.roomAdd-images-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 630px;
+    border: 1px solid lightgray;
+    padding: 15px 0;
+}
+
+.roomAdd-images-left {
+    padding: 50px;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.roomAdd-images-left > button:first-child {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    font-size: 60px;
+    gap: 10px;
+}
+
+.roomAdd-images-left > button:first-child > span {
+    font-size: 16px;
+}
+
+.roomAdd-images-left > button:last-child {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: red;
+    font-size: 20px;
+    padding: 3px 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: none;
+    background-color: #333;
+    border-radius: 4px;
+}
+
+.roomAdd-images-left > button:last-child > span {
+    font-size: 16px;
+    color: #fff;
+}
+
+.roomAdd-images-right {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.roomAdd-images-right .image-item {
+    width: 50%;
+    height: 200px;
+    padding: 2px;
+    position: relative;
+}
+
+.roomAdd-images-right .image-item:hover .image-item__btn-wrapper {
+    visibility: visible;
+}
+
+.roomAdd-images-right .image-item > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.roomAdd-images-right .image-item .image-item__btn-wrapper {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: rgba(51, 51, 51, .6);
+    padding: 5px;
+    visibility: hidden;
+}
+
+.roomAdd-images-right .image-item .image-item__btn-wrapper > button {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.roomAdd-images-right .image-item .image-item__btn-wrapper > button:last-child {
+    color: red;
+}
+
+.roomAdd-images-error {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* features section styles */
+.roomAdd-content-features {
+    padding: 20px;
+    border: 2px solid #ced4da;
+    display: flex;
+    gap: 20px;
+}
+
+.roomAdd-content-features-left {
+    width: 50%;
+}
+
+.roomAdd-content-features-left-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.roomAdd-content-features-left-select > p {
+    width: 30%;
+    align-self: flex-start;
+}
+
+.roomAdd-content-features-left-select > select {
+    width: 70%;
+    align-self: flex-start;
+    padding: 5px 15px;
+}
+
+.roomAdd-content-features-right {
+    width: 50%;
+}
+
+/* room no tag styles */
+.roomAdd-roomno-tag-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+}
+
+.roomAdd-roomno-tag {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px 10px;
+    border-radius: 50px;
+    background-color: tomato;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+.roomAdd-roomno-tag > button {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.roomAdd-roomno-tag > button > svg {
+    color: #fff;
+    width: 20px;
+    height: 20px;
+}
